@@ -4,6 +4,7 @@ let shuttleCabinReady = true;
 let crewStatus = spaceSuitsOn && shuttleCabinReady;
 let computerStatusCode = 200;
 let shuttleSpeed = 15000;
+let commandOverride = true;
 
 // 3) Write conditional expressions to satisfy the following safety rules:
 
