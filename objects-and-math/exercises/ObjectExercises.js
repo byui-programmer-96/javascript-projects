@@ -22,3 +22,20 @@ let salamander = {
 // Print out the relevant information about each animal.
 
 // Start an animal race!
+function fitnessTest(candidates){
+   let results = [], numSteps, turns;
+
+   for (let i = 0; i < candidates.length; i++){
+       numSteps = 0;
+       turns = 0;
+
+    while(numSteps < 20){
+       numSteps += candidates[i].move();
+       turns++;
+    }
+
+    results.push(`${candidates[i].name} took ${turns} turns to take 20 steps.`);
+}
+
+return results;
+}
