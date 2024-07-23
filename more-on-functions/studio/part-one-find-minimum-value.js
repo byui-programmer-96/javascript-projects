@@ -15,8 +15,5 @@ function findMinValue(arr) {
     return minValue;
 }
 //Using one of the test arrays as the argument, call your function inside the console.log statement below.
-let = minValue;czSqq2se
-function findMinValue (arr)
-{
 
-console.log(/* your code here */);
+console.log(findMinValue(nums2));
